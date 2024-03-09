@@ -1,0 +1,66 @@
+.thumbnail{
+  width: 100%;
+  display: block;
+  
+}
+
+
+<!--
+  since grid is used
+  .video_preview{
+  display: inline-block;
+  margin-right: 15px;
+  vertical-align: top;
+  width: 300px
+}-->
+
+.author{
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+.stats{
+  font-size: 12px;
+}
+
+.video_info{
+  
+  width: 200px;
+}
+.title{
+  margin-top: 0px;
+  line-height: 20px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+.profile_picture{
+  border-radius: 50px;
+  width: 40px;
+}
+.thumbnail_row{
+  margin-bottom: 12px;
+  position: relative;
+}
+.video_info_grid{
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+.video_grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 12px;
+}
+.video-time{
+  font-size: 12px;
+  font-weight: 500;
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 2px;
+}
